@@ -62,7 +62,7 @@ WelcomePageURL=bds:/default.htm
 [View1]
 CustomEditViewType=TEditView
 Module=C:\Projetos\Patterns\Atividade 2\Unit1.pas
-CursorX=32
+CursorX=30
 CursorY=41
 TopLine=22
 LeftCol=1
@@ -199,11 +199,6 @@ LRDockWidth=1896
 Dockable=1
 StayOnTop=0
 SplitPos=111
-
-[PropInspDesignerSelection]
-ArrangeBy=Name
-SelectedItem=Caption,
-ExpandedItems=Anchors=0,BorderIcons=0
 
 [frmDesignPreview]
 PercentageSizes=1

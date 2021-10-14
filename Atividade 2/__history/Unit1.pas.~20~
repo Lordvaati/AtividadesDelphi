@@ -36,12 +36,14 @@ begin
   parc:= strtoint(Edit2.Text);
   resuldiv:= val / parc;
   resulmult:= resuldiv * parc;
-  for I := 0 to parc do
+  for I := 1 to parc do
   begin
-    Memo1.Text:= floattostr(resuldiv);
+    Memo1.Lines.Add(IntToStr(i));
   end;
 
-  ShowMessage(FormatFloat('0.00', resulmult));
+  ShowMessage('valor total é: ' + (FormatFloat('0.00', resulmult)));
+
+
 end;
 
 end.

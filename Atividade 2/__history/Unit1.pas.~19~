@@ -30,14 +30,20 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 var val, resuldiv, resulmult: currency;
-    parc: integer;
+    parc, I: integer;
 begin
   val:= strtofloat(Edit1.Text);
   parc:= strtoint(Edit2.Text);
   resuldiv:= val / parc;
   resulmult:= resuldiv * parc;
-  Memo1.Text:= floattostr(resuldiv);
-  ShowMessage(FormatFloat('00', resulmult));
+  for I := 1 to parc do
+  begin
+    Memo1.Lines.Add(IntToStr(i)) + Memo1.Text:= floattostr(resuldiv);
+  end;
+
+  ShowMessage('valor total é: ' + (FormatFloat('0.00', resulmult)));
+
+
 end;
 
 end.
