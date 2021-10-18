@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2021/10/17 19:58:55.000.268,=C:\Projetos\Unit1.pas</Transaction>
-    <Transaction>2021/10/17 20:26:52.030,=C:\Projetos\Unit1.pas</Transaction>
-    <Transaction>2021/10/17 20:29:19.146,C:\Projetos\Patterns\Atividade 4 FIZZBUZZ\Unit1.dfm=C:\Projetos\Unit1.dfm</Transaction>
-    <Transaction>2021/10/17 20:29:19.146,C:\Projetos\Patterns\Atividade 4 FIZZBUZZ\Unit1.pas=C:\Projetos\Unit1.pas</Transaction>
-    <Transaction>2021/10/17 20:29:21.368,C:\Projetos\Patterns\Atividade 4 FIZZBUZZ\Project1.dproj=C:\Projetos\Project1.dproj</Transaction>
+    <Transaction>2021/10/17 20:26:52.000.030,=C:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2021/10/17 20:29:19.000.146,C:\Projetos\Unit1.pas=C:\Projetos\Patterns\Atividade 4 FIZZBUZZ\Unit1.pas</Transaction>
+    <Transaction>2021/10/17 20:29:19.000.146,C:\Projetos\Unit1.dfm=C:\Projetos\Patterns\Atividade 4 FIZZBUZZ\Unit1.dfm</Transaction>
+    <Transaction>2021/10/17 20:29:21.000.368,C:\Projetos\Project1.dproj=C:\Projetos\Patterns\Atividade 4 FIZZBUZZ\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>

@@ -12,6 +12,13 @@ type
     Edit1: TEdit;
     Button1: TButton;
     Memo1: TMemo;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
     procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
@@ -28,23 +35,29 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 var
-  I, valor: integer;
+  I, valor, Contf, Contb, Contfb: integer;
 begin
 
+ Contf:= 0;
+ Contb:= 0;
+ Contfb:= 0;
  valor:= StrToInt(Edit1.Text);
  for I := 1 to valor do
   begin
-    if I mod 3 = 0 then
+    if (I mod 3 = 0) AND (I mod 5 = 0) then
+      begin
+        Memo1.Lines.Add(IntToStr(i) + ': FIZZBUZZ!');
+        Contfb:= Contfb + 1;
+      end
+    else if I mod 3 = 0 then
       begin
         Memo1.Lines.Add(IntToStr(i) + ': FIZZ!');
+        Contf:= Contf + 1;
       end
     else if I mod 5 = 0 then
       begin
         Memo1.Lines.Add(IntToStr(i) + ': BUZZ!');
-      end
-    else if (I mod 3 = 0) AND (I mod 5 = 0) then
-      begin
-        Memo1.Lines.Add(IntToStr(i) + ': FIZZBUZZ!');
+        Contb:= Contb + 1;
       end
     else
       begin
@@ -52,6 +65,10 @@ begin
       end;
 
   end;
+
+  Label3.Caption:= IntToStr(Contf);
+  Label5.Caption:= IntToStr(Contb);
+  Label7.Caption:= IntToStr(Contfb);
 
 end;
 
