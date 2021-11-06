@@ -36,6 +36,7 @@ begin
   val1:= strtofloat(Edit1.Text);
   val2:= strtofloat(Edit2.Text);
   case RadioGroup1.ItemIndex of
+    -1: ShowMessage('Escolha uma operação');
     0: resul:= val1 + val2;
     1: resul:= val1 - val2;
     2: resul:= val1 * val2;

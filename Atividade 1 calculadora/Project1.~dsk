@@ -1,24 +1,35 @@
 ﻿[Closed Files]
-File_0=TSourceModule,'C:\Projetos\Autodidata\Aula 1\Unit1.pas',0,1,29,22,44,0,0,,
-File_1=TSourceModule,'C:\Projetos\Autodidata\Aula 2\Unit1.pas',0,1,1,19,18,0,0,,
-File_2=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\VCL\Vcl.StdCtrls.pas',0,1,5428,1,5440,0,0,{{1715,4}
-File_3=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\VCL\Vcl.Forms.pas',0,1,11188,20,11199,0,0,{{1891,4}
-File_4=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\source\rtl\common\System.Classes.pas',0,1,18164,1,18178,0,0,,
-File_5=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\VCL\Vcl.Controls.pas',0,1,10103,1,10121,0,0,,
-File_6=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\RTL\SYS\System.pas',0,1,25854,1,25866,0,0,,
+File_0=TSourceModule,'C:\Projetos\Patterns\Atividade 1\Unit1.dfm',0,1,1,1,1,0,0,,
+File_1=TSourceModule,'C:\Projetos\Autodidata\Aula 1\Unit1.pas',0,1,29,22,44,0,0,,
+File_2=TSourceModule,'C:\Projetos\Autodidata\Aula 2\Unit1.pas',0,1,1,19,18,0,0,,
+File_3=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\VCL\Vcl.StdCtrls.pas',0,1,5428,1,5440,0,0,{{1715,4}
+File_4=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\VCL\Vcl.Forms.pas',0,1,11188,20,11199,0,0,{{1891,4}
+File_5=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\source\rtl\common\System.Classes.pas',0,1,18164,1,18178,0,0,,
+File_6=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\VCL\Vcl.Controls.pas',0,1,10103,1,10121,0,0,,
+File_7=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\RTL\SYS\System.pas',0,1,25854,1,25866,0,0,,
 
 [Modules]
-Module0=C:\Projetos\Patterns\Aula 1\Unit1.pas
-Count=1
+Module0=C:\Projetos\Patterns\Atividade 1 calculadora\Unit1.pas
+Module1=C:\Projetos\Patterns\Atividade 1 calculadora\Project1.dproj
+Module2=default.htm
+Count=3
 EditWindowCount=1
 
-[C:\Projetos\Patterns\Aula 1\Unit1.pas]
+[C:\Projetos\Patterns\Atividade 1 calculadora\Unit1.pas]
 ModuleType=TSourceModule
 
+[C:\Projetos\Patterns\Atividade 1 calculadora\Project1.dproj]
+ModuleType=TBaseProject
+
+[default.htm]
+ModuleType=TURLModule
+
 [EditWindow0]
-ViewCount=1
-CurrentEditView=C:\Projetos\Patterns\Aula 1\Unit1.pas
+ViewCount=3
+CurrentEditView=C:\Projetos\Patterns\Atividade 1 calculadora\Unit1.pas
 View0=0
+View1=1
+View2=2
 PercentageSizes=1
 Create=1
 Visible=1
@@ -43,21 +54,36 @@ RightPanelClients=DockSite2,DockSite4
 RightPanelData=00000800010100000000D81100000000000001CF0700000000000001000000004212000009000000446F636B53697465320100000000BD1F000009000000446F636B5369746534FFFFFFFF
 BottomPanelSize=0
 BottomPanelClients=DockSite1,MessageView
-BottomPanelData=0000080001020200000009000000446F636B53697465310F0000004D65737361676556696577466F726DAA440000000000000276060000000000000100000000AA4400000F0000004D65737361676556696577466F726DFFFFFFFF
+BottomPanelData=0000080001020200000009000000446F636B53697465310F0000004D65737361676556696577466F726D1534000000000000022806000000000000FFFFFFFF
 BottomMiddlePanelSize=0
 BottomMiddlePanelClients=DockSite0,GraphDrawingModel
 BottomMiddelPanelData=0000080001020200000009000000446F636B536974653010000000477261706844726177696E67566965779A1D00000000000002F806000000000000FFFFFFFF
 
 [View0]
+CustomEditViewType=TWelcomePageView
+WelcomePageURL=bds:/default.htm
+
+[View1]
 CustomEditViewType=TEditView
-Module=C:\Projetos\Patterns\Aula 1\Unit1.pas
-CursorX=45
-CursorY=19
-TopLine=23
+Module=C:\Projetos\Patterns\Atividade 1 calculadora\Project1.dpr
+CursorX=1
+CursorY=1
+TopLine=1
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=Borland.FormDesignerView
+EditViewName=C:\Projetos\Patterns\Atividade 1 calculadora\Project1.dpr
+
+[View2]
+CustomEditViewType=TEditView
+Module=C:\Projetos\Patterns\Atividade 1 calculadora\Unit1.pas
+CursorX=1
+CursorY=1
+TopLine=16
+LeftCol=1
+Elisions=
+Bookmarks=
+EditViewName=C:\Projetos\Patterns\Atividade 1 calculadora\Unit1.pas
 
 [Watches]
 Count=0
@@ -138,14 +164,14 @@ Visible=0
 Docked=1
 State=0
 Left=0
-Top=28
-Width=9883
-Height=1360
+Top=0
+Width=2767
+Height=1415
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=9883
-ClientHeight=1360
-TBDockHeight=1360
+ClientWidth=2767
+ClientHeight=1415
+TBDockHeight=1415
 LRDockWidth=2767
 Dockable=1
 StayOnTop=0
@@ -191,8 +217,8 @@ SplitPos=111
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=Font,CustomHint
-ExpandedItems=Anchors=0,BorderIcons=0,Constraints=0,CustomTitleBar=0,Font=0,GlassFrame=0,HorzScrollBar=0,LiveBindings=0,"LiveBindings Designer=0",Margins=0,Padding=0,Font.Style=0
+SelectedItem=Caption,
+ExpandedItems=Anchors=0,BorderIcons=0
 
 [frmDesignPreview]
 PercentageSizes=1
@@ -424,8 +450,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-171
-Top=-269
+Left=-197
+Top=-295
 Width=1845
 Height=3146
 MaxLeft=-1

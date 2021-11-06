@@ -10,22 +10,17 @@ File_7=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\VCL\
 File_8=TSourceModule,'c:\program files (x86)\embarcadero\studio\21.0\SOURCE\RTL\SYS\System.pas',0,1,25854,1,25866,0,0,,
 
 [Modules]
-Module0=C:\Projetos\Patterns\Atividade 2\Unit1.pas
-Module1=default.htm
-Count=2
+Module0=default.htm
+Count=1
 EditWindowCount=1
-
-[C:\Projetos\Patterns\Atividade 2\Unit1.pas]
-ModuleType=TSourceModule
 
 [default.htm]
 ModuleType=TURLModule
 
 [EditWindow0]
-ViewCount=2
-CurrentEditView=C:\Projetos\Patterns\Atividade 2\Unit1.pas
+ViewCount=1
+CurrentView=0
 View0=0
-View1=1
 PercentageSizes=1
 Create=1
 Visible=1
@@ -58,17 +53,6 @@ BottomMiddelPanelData=0000080001020200000009000000446F636B5369746530100000004772
 [View0]
 CustomEditViewType=TWelcomePageView
 WelcomePageURL=bds:/default.htm
-
-[View1]
-CustomEditViewType=TEditView
-Module=C:\Projetos\Patterns\Atividade 2\Unit1.pas
-CursorX=30
-CursorY=41
-TopLine=22
-LeftCol=1
-Elisions=
-Bookmarks=
-EditViewName=C:\Projetos\Patterns\Atividade 2\Unit1.pas
 
 [Watches]
 Count=0
@@ -430,8 +414,8 @@ Create=1
 Visible=0
 Docked=1
 State=0
-Left=-223
-Top=-321
+Left=-249
+Top=-347
 Width=1845
 Height=3146
 MaxLeft=-1
