@@ -1,0 +1,54 @@
+unit Principal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Conexao;
+
+type
+  TFormPrincipal = class(TForm)
+    Menu: TMainMenu;
+    Cadastros1: TMenuItem;
+    Cadastros2: TMenuItem;
+    Eventos1: TMenuItem;
+    Eventos2: TMenuItem;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    abeladeIRRF1: TMenuItem;
+    abeladeIRRF2: TMenuItem;
+    Sair1: TMenuItem;
+    Sair2: TMenuItem;
+    Mudanadesalrios1: TMenuItem;
+    Mudanadesalrios2: TMenuItem;
+    FolhadePagamento1: TMenuItem;
+    Ralatrios1: TMenuItem;
+    Ralatrios2: TMenuItem;
+    FolhadePagamento2: TMenuItem;
+    Funcionrios1: TMenuItem;
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPrincipal: TFormPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFormPrincipal.FormCreate(Sender: TObject);
+begin
+  DM:= TDM.Create(Self);
+end;
+
+procedure TFormPrincipal.FormDestroy(Sender: TObject);
+begin
+  DM.Free;
+end;
+
+end.

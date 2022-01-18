@@ -1,0 +1,73 @@
+object FormPrincipal: TFormPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Inicio'
+  ClientHeight = 201
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = Menu
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Menu: TMainMenu
+    Left = 8
+    Top = 16
+    object Cadastros1: TMenuItem
+      Caption = 'Cadastros'
+      object Cadastros2: TMenuItem
+        Caption = 'Cargos'
+      end
+      object Eventos1: TMenuItem
+        Caption = 'Eventos'
+      end
+      object Eventos2: TMenuItem
+        Caption = 'Funcion'#225'rios'
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object N2: TMenuItem
+        Caption = 'Tabela de INSS'
+      end
+      object abeladeIRRF1: TMenuItem
+        Caption = 'Tabela de IRRF'
+      end
+      object abeladeIRRF2: TMenuItem
+        Caption = '-'
+      end
+      object Sair1: TMenuItem
+        Caption = 'Sair'
+      end
+    end
+    object Sair2: TMenuItem
+      Caption = 'Processos'
+      object Mudanadesalrios1: TMenuItem
+        Caption = 'Mudan'#231'a de Sal'#225'rio(s)'
+      end
+      object Mudanadesalrios2: TMenuItem
+        Caption = 'Lan'#231'ar Evento para Funcion'#225'rio(s)'
+      end
+      object FolhadePagamento1: TMenuItem
+        Caption = 'Folha de Pagamento'
+      end
+    end
+    object Ralatrios1: TMenuItem
+      Caption = 'Ralat'#243'rios'
+      object FolhadePagamento2: TMenuItem
+        Caption = 'Folha de Pagamento'
+      end
+      object Funcionrios1: TMenuItem
+        Caption = 'Funcion'#225'rios'
+      end
+    end
+    object Ralatrios2: TMenuItem
+      Caption = 'Sair'
+    end
+  end
+end

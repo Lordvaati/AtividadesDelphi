@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/16 17:11:06.000.659,=C:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2022/01/16 17:23:32.000.134,=C:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2022/01/16 17:23:43.000.237,C:\Projetos\Unit1.pas=C:\Projetos\Principal.pas</Transaction>
+    <Transaction>2022/01/16 17:23:43.000.237,C:\Projetos\Unit1.dfm=C:\Projetos\Principal.dfm</Transaction>
+    <Transaction>2022/01/16 17:30:47.000.477,=C:\Projetos\Unit1.pas</Transaction>
+    <Transaction>2022/01/16 17:31:35.000.381,C:\Projetos\Unit1.pas=C:\Projetos\Conexao.pas</Transaction>
+    <Transaction>2022/01/16 17:31:35.000.381,C:\Projetos\Unit1.dfm=C:\Projetos\Conexao.dfm</Transaction>
+    <Transaction>2022/01/16 17:34:14.000.194,C:\Projetos\Principal.dfm=C:\Projetos\Patterns\FolhaDePagamentos\Principal.dfm</Transaction>
+    <Transaction>2022/01/16 17:34:14.000.194,C:\Projetos\Principal.pas=C:\Projetos\Patterns\FolhaDePagamentos\Principal.pas</Transaction>
+    <Transaction>2022/01/16 17:34:20.000.795,C:\Projetos\Conexao.dfm=C:\Projetos\Patterns\FolhaDePagamentos\Conexao.dfm</Transaction>
+    <Transaction>2022/01/16 17:34:20.000.795,C:\Projetos\Conexao.pas=C:\Projetos\Patterns\FolhaDePagamentos\Conexao.pas</Transaction>
+    <Transaction>2022/01/16 17:34:25.000.594,C:\Projetos\Project1.dproj=C:\Projetos\Patterns\FolhaDePagamentos\Project1.dproj</Transaction>
+    <Transaction>2022/01/16 18:39:47.000.608,C:\Projetos\Patterns\FolhaDePagamentos\AppFolha.dproj=C:\Projetos\Patterns\FolhaDePagamentos\Project1.dproj</Transaction>
+    <Transaction>2022/01/16 19:02:34.000.262,=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas</Transaction>
+    <Transaction>2022/01/16 19:03:11.000.082,=C:\Projetos\Patterns\FolhaDePagamentos\Unit2.pas</Transaction>
+    <Transaction>2022/01/16 19:03:39.000.898,C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.dfm=C:\Projetos\Patterns\FolhaDePagamentos\Unit2.dfm</Transaction>
+    <Transaction>2022/01/16 19:03:39.000.898,C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.pas=C:\Projetos\Patterns\FolhaDePagamentos\Unit2.pas</Transaction>
+    <Transaction>2022/01/16 19:11:36.000.694,=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas</Transaction>
+    <Transaction>2022/01/16 19:12:03.000.554,C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.dfm=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.dfm</Transaction>
+    <Transaction>2022/01/16 19:12:03.000.554,C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.pas=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas</Transaction>
+    <Transaction>2022/01/16 19:12:47.000.594,C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadCargo.dfm=C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.dfm</Transaction>
+    <Transaction>2022/01/16 19:12:47.000.594,C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadCargo.pas=C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.pas</Transaction>
+    <Transaction>2022/01/17 19:41:53.000.862,C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadCargo.pas=</Transaction>
+    <Transaction>2022/01/17 19:41:58.000.401,=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas</Transaction>
+    <Transaction>2022/01/17 19:42:08.000.166,C:\Projetos\Patterns\FolhaDePagamentos\Unit1.dfm=C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.dfm</Transaction>
+    <Transaction>2022/01/17 19:42:08.000.166,C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas=C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.pas</Transaction>
+    <Transaction>2022/01/17 19:45:52.000.050,C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.dfm=C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadCargo.dfm</Transaction>
+    <Transaction>2022/01/17 19:45:52.000.050,C:\Projetos\Patterns\FolhaDePagamentos\CadCargo.pas=C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadCargo.pas</Transaction>
+    <Transaction>2022/01/18 00:36:25.000.299,=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas</Transaction>
+    <Transaction>2022/01/18 01:49:10.000.314,C:\Projetos\Patterns\FolhaDePagamentos\CadFunc.pas=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas</Transaction>
+    <Transaction>2022/01/18 01:49:10.000.314,C:\Projetos\Patterns\FolhaDePagamentos\CadFunc.dfm=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.dfm</Transaction>
+    <Transaction>2022/01/18 01:56:10.000.682,C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadFunc.dfm=C:\Projetos\Patterns\FolhaDePagamentos\CadFunc.dfm</Transaction>
+    <Transaction>2022/01/18 01:56:10.000.682,C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadFunc.pas=C:\Projetos\Patterns\FolhaDePagamentos\CadFunc.pas</Transaction>
+    <Transaction>2022/01/18 02:12:16.000.416,=C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas</Transaction>
+    <Transaction>2022/01/18 02:20:29.000.592,C:\Projetos\Patterns\FolhaDePagamentos\Unit1.pas=C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadEvento.pas</Transaction>
+    <Transaction>2022/01/18 02:20:29.000.592,C:\Projetos\Patterns\FolhaDePagamentos\Unit1.dfm=C:\Projetos\Patterns\FolhaDePagamentos\cadastro\CadEvento.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="cadastro"/>
+    <File Path="cadastro\CadCargo.pas"/>
+    <File Path="cadastro\CadCargo.dfm"/>
+    <File Path="cadastro\CadFunc.pas"/>
+    <File Path="cadastro\CadFunc.dfm"/>
+    <File Path="cadastro\CadEvento.pas"/>
+    <File Path="cadastro\CadEvento.dfm"/>
+    <File Path="Principal.pas"/>
+    <File Path="Principal.dfm"/>
+    <File Path="Conexao.pas"/>
+    <File Path="Conexao.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

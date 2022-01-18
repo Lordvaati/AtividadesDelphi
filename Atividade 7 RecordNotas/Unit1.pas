@@ -42,6 +42,7 @@ begin
   MaiorNota:= 0;
   MenorNota:= 11;
   SetLength(Alunos, 11);
+  Memo1.Clear;
   for I := Low(Alunos)+1 to High(Alunos) do
     begin
       Alunos[I].Nome:= 'Aluno ' + I.ToString;
@@ -59,6 +60,7 @@ begin
         end;
       Memo1.Lines.Add(Alunos[I].Nome + ': ' + Alunos[I].Nota.ToString);
     end;
+
 
     Media:= Soma/10;
     Memo1.Lines.Add('');

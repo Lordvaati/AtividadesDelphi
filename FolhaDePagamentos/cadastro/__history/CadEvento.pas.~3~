@@ -1,0 +1,51 @@
+unit CadEvento;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.Grids, Vcl.DBGrids,
+  Vcl.ComCtrls, Conexao, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls;
+
+type
+  TForm1 = class(TForm)
+    PageControl1: TPageControl;
+    TabSheet1: TTabSheet;
+    DBGrid1: TDBGrid;
+    FDQuery1: TFDQuery;
+    FDQuery1CODIGO: TIntegerField;
+    FDQuery1NOME: TStringField;
+    FDQuery1TIPO: TIntegerField;
+    Label1: TLabel;
+    EditCodEvent: TDBEdit;
+    DataSource1: TDataSource;
+    Label2: TLabel;
+    EditNomeEvent: TDBEdit;
+    Label3: TLabel;
+    EditTipoEvent: TDBEdit;
+    SalvarEvento: TButton;
+    NovoEvento: TButton;
+    ExcluirEvento: TButton;
+    procedure NovoEventoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.NovoEventoClick(Sender: TObject);
+begin
+  DataSourceEvent.DataSet.Append;
+end;
+
+end.
